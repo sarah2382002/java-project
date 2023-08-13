@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 159, 41);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#hd {
+    color: red;
+    background-color: yellow;
+    border: 1px solid #000;
+    text-align: center;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50%;
+}
+
+#user__input {
+    height: 3vh;
+    border-radius: 5px;
+
+}
+
+#add {
+    height: 3vh;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(16, 100, 226);
+
+}
+
+#add:hover {
+    background-color: blue;
+}
+
+#app__cont {
+    height: 60vh;
+    width: 50vh;
+    border: 1px solid #000;
+
+}
+
+.cnfrm {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: #c73609;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.confirmed {
+    background-color: #217602;
+    color: aliceblue;
+}
